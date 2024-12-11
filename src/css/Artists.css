@@ -1,0 +1,54 @@
+body{
+	height: 100vh;
+	width: 100vw;
+}
+.page-container{
+	height: 100vh;
+	width: 100vw;
+}
+.page-header{
+	height:400px;
+	width: 100%;
+	background-image: url('/sugarcult.jpg');
+	background-size: 100% 100%;
+}
+.page-gradient{
+	height: 100%;
+	width: 100%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: rgb(47,52,107);
+	background: linear-gradient(0deg, rgba(47,52,107,1) 0%, rgba(47,52,107,0.9738095921962535) 32%, rgba(47,52,107,0.8085434857536764) 100%); 
+}
+.page-title{
+	font-size: 80px;
+	font-weight: 900;
+}
+.page-subtitles{
+	height: 150px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.page-subtitles > span{
+	font-size: 30px;
+	font-weight: 400;
+	color: white;
+	margin-left: 30px;
+	margin-right: 30px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.ps-active{
+	text-decoration: underline !important;
+	color: red;
+}
+.page-content{
+	background-color: rgb(47,52,107);
+	height: 2000px;
+}

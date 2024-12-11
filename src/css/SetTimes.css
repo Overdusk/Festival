@@ -1,0 +1,30 @@
+.day-selector-container{
+	height: 60px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.day-selector-box{
+	height: calc(80% - 8px);
+	width: 300px;
+	border: 8px solid #74B1E0;
+	background-color: #2F346B;
+	display: flex;
+	flex-direction: row;
+	color: white;
+	font-weight: bold;
+	justify-content: space-around;
+	align-items: center;
+}
+.day-r, .day-l{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.d-active{
+	background-color: #74B1E0;
+}

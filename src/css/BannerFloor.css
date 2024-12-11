@@ -1,0 +1,69 @@
+.banner-mask{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0,0,0, 0.6);
+  z-index: 500;
+}
+.banner-floor{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('festivalimage.jpg');
+  background-size: 100% 100%;
+  z-index: -20;
+}
+.title-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 100vw;
+  color: white;
+}
+.title-time-left{
+  font-weight: 900;
+  font-size: 64px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.subtitle-time-left{
+  font-weight: bold;
+  font-size: 24px;
+}
+.banner-middle-icon{
+  height: 160px;
+  width: 220px;
+}
+button{
+  cursor: pointer;
+}
+.buttons-section{
+  margin-top: 20px;
+}
+.buttons-section > :first-child {
+  margin-top: 30px;
+  height: 50px;
+  width: 310px;
+  border-radius: 800px;
+  border: none;
+  outline: none;
+  background-color: #E65C94;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+.buttons-section > :nth-child(2){
+  margin-top: 30px;
+  height: 50px;
+  width: 280px;
+  border-radius: 800px;
+  border: 2px solid #E65C94;
+  outline: none;
+  background-color: rgba(0,0,0,0.1);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 20px;  
+}

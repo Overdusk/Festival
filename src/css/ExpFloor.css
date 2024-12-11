@@ -1,0 +1,58 @@
+.exp-section{
+	height:600px;
+	width: 100vw;
+}
+.emf-container{
+	height: 250px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.emf-title{
+	font-size: 36px;
+	font-weight: 900;
+}
+.emf-button {
+  margin-top: 30px;
+  height: 50px;
+  width: 310px;
+  border-radius: 800px;
+  border: none;
+  outline: none;
+  background-color: #02946F;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+.camping-container{
+	height: 350px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.camping-column{
+	height: 100%;
+	width: 500px;
+	margin-right: 140px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.camping-column > span:first-child{
+	font-size: 24px;
+	font-weight: bold;
+}
+.camping-column > p{
+	width: 400px;
+	letter-spacing: 2px;
+}
+.camping-image{
+	width: 350px;
+	height: 330px;
+	-webkit-box-shadow: -4px 4px 20px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: -4px 4px 20px -5px rgba(0,0,0,0.75);
+	box-shadow: -4px 4px 20px -5px rgba(0,0,0,0.75);
+}

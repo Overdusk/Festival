@@ -1,0 +1,50 @@
+.fake-video{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.album-vlanding{
+	border-radius:1000px;
+	height: 100%;
+	width: 1000px;
+	margin:-400px;
+	justify-self: flex-start;
+}
+.fake-video > i{
+	color: white;
+	font-size: 150px;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fake-video > i:hover{
+	color: gray;
+}
+.video-section{
+	height: 900px;
+	width: 100vw;
+	background-image: url('./metal-vlanding.webp');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.video-container{
+	height: 100%;
+	width: 100vw;
+	display: none;
+}
+.video-container > video{
+	height: 100%;
+	width: 100%;
+}
+.video-container > i{
+	color: white;
+	font-size: 30px;
+	z-index: 100;
+	position:absolute;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-left: 40px;
+}

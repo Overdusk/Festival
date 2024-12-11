@@ -1,0 +1,58 @@
+nav{
+  width: 100vw;
+  height: 150px;
+}
+.navbar-buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+  height: 100%;
+}
+.navbar-buttons > li{
+  list-style: none;
+  margin-left: 28px;
+  margin-right: 28px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.navbar-buttons > li > a:hover{
+  color: pink;
+}
+.icons-box{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+ul > ul > li{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 60px;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+.festival-logo{
+  height: 120px;
+  width: 130px;
+  border-radius: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.navbar-buttons > li > a{
+  text-decoration: none;
+  color: white;
+}
+.navbar-buttons > li > a:hover{
+  padding-bottom: 30px;
+  border-bottom: 8px solid pink;
+}
