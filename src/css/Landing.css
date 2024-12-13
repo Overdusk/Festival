@@ -20,6 +20,7 @@ ul, video{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgb(47,52,107);
   }
   .festival-rs-logo{
     height: 70px;

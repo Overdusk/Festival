@@ -14,6 +14,10 @@ function Info()
 						<span>INFORMACIÓN</span>
 					</div>
 				</div>
+				<div className="rs-page-info-header">
+					<span>INFORMACIÓN</span>
+						
+				</div>
 				<section className="page-info-content">
 					<section className="page-column">
 						<p>
@@ -29,7 +33,6 @@ function Info()
 						<p>
 							Dentro del área de camping encontrarás, regaderas, baños, área de descanso, food truck y distintas amenidades para que puedas pasar un momento antes que se abran nuevamente las puertas del festival.
 						</p>
-
 						<h3 className="page-column-title">Reglas y condiciones del camping</h3>
 						<h4 className="page-column-subtitle">Horario de registro</h4>
 						<p className="schedule-day">Viernes 26 de Abril</p>
