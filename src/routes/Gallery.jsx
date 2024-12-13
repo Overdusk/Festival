@@ -53,8 +53,6 @@ function Gallery(){
 								</span>
 							</div>
 						</div>
-
-
 						<div className="gpic" style={{backgroundImage: `url('/metal-vlanding.webp')`}}>
 							<div className="ggradient">
 								<span>
@@ -95,7 +93,7 @@ function Gallery(){
 								</span>
 							</div>
 						</div>
-						
+
 						<div className="gpic" style={{backgroundImage: `url('/snowboard.jpg')`}}>
 							<div className="ggradient">
 								<span>

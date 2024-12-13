@@ -39,7 +39,7 @@
 	margin-left: 20px;
 	margin-right: 20px;
 	opacity: 0;
-	
+
 	-webkit-transition: all 0.2s ease-in;  /* Chrome 1-25, Safari 3.2+ */
  	-moz-transition: all 0.2s ease-in;  /* Firefox 4-15 */
  	-o-transition: all 0.2s ease-in;  /* Opera 10.50–12.00 */
@@ -55,4 +55,34 @@
 }
 .gpic:hover > .ggradient > span:nth-child(2){
 	opacity: 1;
+}
+
+/* MEDIA QUERIES */
+
+@media (width < 1200px){
+	.gpic{
+		height: 300px;
+		width: 100%;
+	}
+	.gallery-grid{
+		grid-template-columns: 100%;
+	}
+	.page-header{
+		height: 200px;
+	}
+	.page-gradient{
+		height:200px;
+	}
+	.page-content{
+		overflow-y: scroll;
+	} 
+	.page-title{
+		color: white;
+		font-weight: 900;
+		font-size: 45px;
+	}
+}
+
+@media(width >= 1200px){
+
 }
