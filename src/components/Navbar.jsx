@@ -27,7 +27,7 @@ function Navbar()
 			<nav style= {bg} >
 		        <ul className="navbar-buttons">
 					<li>
-						<Link to="#">Artists </Link>
+						<Link to="/info">Información</Link>
 					</li>
 					<li>
 						<Link to="/artists">Lineup 2024 </Link>
@@ -42,16 +42,13 @@ function Navbar()
 						<img src='/logo.jpeg' className="festival-logo"/>
 					</li>
 					<li>
-						Tickets
+						<Link to="/artists">Lineup 2024 </Link>
 					</li>
 					<li>
-						Lineup 2024
+						<Link to="#">Artists </Link>
 					</li>
 					<li>
-						Experiencia
-					</li>
-					<li>
-						Cashless
+						<Link to="#">Artists </Link>
 					</li>
 					<ul className="icons-box">
 						<li>

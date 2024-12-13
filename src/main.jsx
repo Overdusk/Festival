@@ -10,6 +10,7 @@ import './css/cssReset.css';
 import Landing from './routes/Landing.jsx';
 import Artists from './routes/Artists.jsx';
 import SingleArtist from './routes/SingleArtist.jsx';
+import Info from './routes/Info.jsx';
 
 const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       path: "artists/:artistId",
       element: <SingleArtist />,
     },
+    {
+      path: "/info",
+      element: <Info />
+    }
   ])
 
 createRoot(document.getElementById('root')).render(

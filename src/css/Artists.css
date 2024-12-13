@@ -49,6 +49,6 @@ body{
 	color: red;
 }
 .page-content{
-	background-color: rgb(47,52,107);
-	height: 2000px;
+	background-color: rgb(47,52,107) !important;
+	height: 2000px !important;
 }

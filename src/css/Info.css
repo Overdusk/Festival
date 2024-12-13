@@ -1,0 +1,90 @@
+.page-container{
+	height: 100vh;
+	width: 100vw;
+}
+.page-info-content{
+	height: 2900px;
+	background-color: #FFFFFF;
+	padding-top:200px;
+	padding-bottom: 100px;
+	padding-left: auto;
+	display: flex;
+	justify-content: center;
+}
+.page-info-header{
+	height:400px;
+	width: 100%;
+	background-color:  rgb(47,52,107);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+.img-header{
+	height: 250px;
+	width: 350px;
+	top: 320px;
+	position: absolute;
+}
+.pageinfo-title > img{
+	-webkit-box-shadow: -1px 9px 12px -3px rgba(107,107,107,1);
+	-moz-box-shadow: -1px 9px 12px -3px rgba(107,107,107,1);
+	box-shadow: -1px 9px 12px -3px rgba(107,107,107,1);
+}
+.pageinfo-title > span{
+	color: white;
+	font-weight: 900;
+	font-size: 45px;
+}
+.pageinfo-title{
+	height:250px;
+	width:800px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.page-column{
+	height: 100%;
+	width: 600px;
+}
+.page-column > p{
+	font-size: 18px;
+	color: gray;
+	line-height: 28px;
+	text-align: justify;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.page-column-title{
+	margin-top: 50px;
+}
+.page-column-subtitle{
+	margin-top: 20px;
+}
+span{
+	margin-top: 20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.general-conditions{
+	margin-top: 40px;
+	padding-left: 50px;
+	color: gray;
+	font-size: 18px;
+}
+.general-conditions > li{
+	margin-top: 20px;
+}
+.access-conditions{
+	margin-top: 10px;
+	margin-left: 40px;
+}
+.access-conditions > li{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.page-info-content .page-column:nth-child(2){
+	margin-left: 100px;
+}
