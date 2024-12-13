@@ -1,0 +1,58 @@
+.gallery-grid{
+	display: grid;
+	grid-template-columns: repeat(4,450px);
+	justify-content: center;
+}
+.gpic{
+	height: 450px;
+	width: 450px;
+	cursor: pointer;
+	background-size: 100% 100%;
+}
+.ggradient{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	-webkit-transition: all 0.2s ease-in;  /* Chrome 1-25, Safari 3.2+ */
+ 	-moz-transition: all 0.2s ease-in;  /* Firefox 4-15 */
+ 	-o-transition: all 0.2s ease-in;  /* Opera 10.50–12.00 */
+ 	transition: all 0.2s ease-in;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+.gpic > .ggradient > span:first-child{
+	font-size: 40px;
+	font-weight: 700;
+	color: white;
+	text-shadow: black 1px 0 10px;
+	transition: transform 0.2s;
+	margin-top: auto;
+}
+.gpic > .ggradient > span:nth-child(2){
+	color: white;
+	font-weight: bold;
+	text-shadow: black 1px 0 10px;
+	text-align: center;
+	margin-top:auto;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	opacity: 0;
+	
+	-webkit-transition: all 0.2s ease-in;  /* Chrome 1-25, Safari 3.2+ */
+ 	-moz-transition: all 0.2s ease-in;  /* Firefox 4-15 */
+ 	-o-transition: all 0.2s ease-in;  /* Opera 10.50–12.00 */
+ 	transition: all 0.2s ease-in;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+.gpic:hover > .ggradient > span:first-child{
+	transform: scale(1.2) skew(1deg) translate(1px,-30px);
+	-webkit-transform: scale(1.2) skew(1deg) translate(1px,-30px);
+	-moz-transform: scale(1.2) skew(1deg) translate(1px,-30px);
+}
+.gpic:hover > .ggradient{
+  	background-color: rgba(0,0,0, 0.3);
+}
+.gpic:hover > .ggradient > span:nth-child(2){
+	opacity: 1;
+}

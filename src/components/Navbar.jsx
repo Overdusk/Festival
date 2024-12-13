@@ -6,7 +6,6 @@ function Navbar()
 	const { hash, pathname, search } = useLocation();
 	const bg = (pathname != '/') ? {backgroundColor: '#2F346B'} : {backgroundColor: 'rgba(52, 52, 52, 0.01)'};
 
-
 	//responsive variables
 	const rsContent = useRef();
 	const brContent = useRef();
@@ -33,7 +32,7 @@ function Navbar()
 						<Link to="/artists">Lineup 2024 </Link>
 					</li>
 					<li>
-						<Link to="#">Artists </Link>
+						<Link to="/gallery">Galería </Link>
 					</li>
 					<li>
 						<Link to="#">Artists </Link>

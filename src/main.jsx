@@ -11,6 +11,7 @@ import Landing from './routes/Landing.jsx';
 import Artists from './routes/Artists.jsx';
 import SingleArtist from './routes/SingleArtist.jsx';
 import Info from './routes/Info.jsx';
+import Gallery from './routes/Gallery.jsx';
 
 const router = createBrowserRouter([
     {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
     {
       path: "/info",
       element: <Info />
+    },
+    {
+      path: "/gallery",
+      element: <Gallery /> 
     }
   ])
 
