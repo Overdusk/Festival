@@ -15,6 +15,7 @@ function ExpFloor()
 						<a href="#"> Mas Información </a>
 					</div>
 					<img src="/3.png" className="camping-image" />
+					
 				</div>
 			</div>
 		</>
