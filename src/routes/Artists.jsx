@@ -18,7 +18,15 @@ function Artists()
 		{
 			return(
 				<SetTimes />
-			)
+			);
+		}
+		if(content == 'poster')
+		{
+			return (
+				<div className="poster-container">
+					<img src="/poster.jpg" />
+				</div>
+			);
 		}
 	}
 	const changeContent = (e) => {

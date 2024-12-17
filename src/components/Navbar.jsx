@@ -35,19 +35,18 @@ function Navbar()
 						<Link to="/gallery">Galería </Link>
 					</li>
 					<li>
-						<Link to="#">Artists </Link>
+						<Link to="/" className="link-logo">
+							<img src='/logo.jpeg' className="festival-logo"/>
+						</Link>
 					</li>
 					<li>
-						<img src='/logo.jpeg' className="festival-logo"/>
+						<Link to="/#">Contact </Link>
 					</li>
 					<li>
-						<Link to="/artists">Lineup 2024 </Link>
+						<Link to="/#">Localización </Link>
 					</li>
 					<li>
-						<Link to="#">Artists </Link>
-					</li>
-					<li>
-						<Link to="#">Artists </Link>
+						<Link to="/#">Tienda </Link>
 					</li>
 					<ul className="icons-box">
 						<li>
