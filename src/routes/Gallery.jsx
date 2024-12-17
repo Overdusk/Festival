@@ -8,11 +8,15 @@ function Gallery(){
 	const imgVisor = useRef(null);
 	const imgRef = useRef(null);
 	const ivContainer = useRef(null);
-	const invokeVisor = () => {
+	const invokeVisor = (e) => {
 		let background = null;
 		imgVisor.current.style.display = 'flex';
-		background = imgRef.current.getAttribute('background');
-		//ivContainer.current.style.backgroundImage = `url( ${ background } )`;
+		background = e.target.parentElement.getAttribute('background');
+		//Navegar hasta el div que tiene el background
+		if(e.target.parentElement.className == 'ggradient'){
+			background = e.target.parentElement.parentElement.getAttribute('background');
+		}
+		ivContainer.current.style.backgroundImage = `url( ${ background } )`;
 	}
 	const closeVisor = () => {
 		if(imgVisor.current.style.display == 'flex')
